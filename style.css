@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+body, html{
+    height: 100;
+}
+* {
+    box-sizing: border-box;
+
+}
+.bg-img {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1524862655266-89c67a10c4b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80");
+  
+    /* Control the height And width of the image */
+    height: 500px;
+    width: 300;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.input-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:  red ;
+    color: navy;
+    border: none;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
